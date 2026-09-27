@@ -54,6 +54,16 @@ export default function Footer() {
       </div>
       <div className="border-t border-steel/15 py-5 text-center text-xs text-steel-light/60">
         © {new Date().getFullYear()} قوّة. جميع الحقوق محفوظة.
+        <span className="mx-2">|</span>
+        Developed by{' '}
+        <a
+          href="https://www.linkedin.com/in/kotaiba-alali/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-neon transition-colors hover:text-paper"
+        >
+          eng.kotaiba alali
+        </a>
       </div>
     </footer>
   );
